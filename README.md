@@ -2,7 +2,7 @@
 
 This is a chess game that uses [Socket.io](https://socket.io/) on both the server and the client to handle connections.  
 
-# Tp Play 
+# To Play 
 
 1.Clone this repostiory -> git clone https://github.com/codebreaker0001/Chess-Mutilplayer.codebreaker0001.github.io.git
 
