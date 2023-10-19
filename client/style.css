@@ -1,0 +1,20 @@
+* {
+	font-family: sans-serif;
+}
+
+.hide {
+    display: none;
+}
+
+canvas {
+    max-width: 100%;
+}
+
+html {
+	background: #666;
+}
+
+input[type=text] {
+    font-family: monospace;
+    width: 20em;
+}

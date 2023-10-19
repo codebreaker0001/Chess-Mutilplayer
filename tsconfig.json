@@ -1,0 +1,10 @@
+{
+    "compileOnSave": true,
+    "include": ["./server/*"],
+    "watchOptions": {
+        "watchDirectory": "usefsevents"
+    },
+    "compilerOptions": {
+        "downlevelIteration": true,
+    }
+}

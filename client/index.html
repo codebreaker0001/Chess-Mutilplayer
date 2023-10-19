@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Chess</title>
+</head>
+
+<body>
+    <div id="info">
+        <form id="user-info">
+            Name: <input type="text" name="name" id="name">
+            <input type="submit" value="Submit">
+        </form>
+        <form id="connect" class="hide">
+            Opponent's Name: <input type="text" id="name">
+            <button type="submit">Connect</button>
+            <br>
+        </form>
+        <div id="name-info" class="hide">
+            Your Name: <input type="text" id="self-name" readonly="true">
+            <button id="self-name-copy">Copy</button>
+
+        </div>
+        <button id="start-game" class="hide">Start Game</button>
+
+    </div>
+
+    <script src="./Piece.js"></script>
+    <script src="./chess.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+    <script src="/socket.io/socket.io.min.js"></script>
+    <script src="./index.js"></script>
+</body>
+
+</html>
